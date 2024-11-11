@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестова сторінка з jQuery та jQuery UI</title>
+    
+    <!-- Підключення jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <!-- Підключення jQuery UI -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
+    <!-- Підключення стилів -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Приклад використання jQuery та jQuery UI</h1>
+
+        <!-- Слайдер -->
+        <div class="slider-container">
+            <h2>Слайдер</h2>
+            <div id="slider"></div>
+            <p>Значення: <span id="value">50</span></p>
+        </div>
+
+        <!-- Випадне меню -->
+        <div class="menu-container">
+            <h2>Випадне меню</h2>
+            <ul id="menu">
+                <li><a href="#">Пункт 1</a></li>
+                <li><a href="#">Пункт 2</a>
+                    <ul>
+                        <li><a href="#">Підпункт 1</a></li>
+                        <li><a href="#">Підпункт 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Пункт 3</a></li>
+            </ul>
+        </div>
+
+        <!-- Галерея -->
+        <div class="gallery-container">
+            <h2>Галерея</h2>
+            <div id="gallery">
+                <img src="https://via.placeholder.com/300x200/FF6347/FFFFFF?text=Image+1" alt="Image 1">
+                <img src="https://via.placeholder.com/300x200/4682B4/FFFFFF?text=Image+2" alt="Image 2">
+                <img src="https://via.placeholder.com/300x200/32CD32/FFFFFF?text=Image+3" alt="Image 3">
+            </div>
+        </div>
+    </div>
+
+    <!-- Підключення JavaScript -->
+    <script src="scripts.js"></script>
+</body>
+</html>
